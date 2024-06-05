@@ -3,8 +3,8 @@ import fs from "fs";
 import { Index } from "@upstash/vector"
 
 const index = new Index({
-    url: process.env.VECTOR_DB_URL,
-    token: process.env.VECTOR_DB_TOKEN
+    url: "https://awake-pigeon-21591-us1-vector.upstash.io",
+    token: "ABYFMGF3YWtlLXBpZ2Vvbi0yMTU5MS11czFhZG1pbk9HUTVZak14TTJZdFltTTVNUzAwTXpRMUxUazFNekV0TmpreVlUTmpaRFZtTkdVNA==",
 })
 
 interface Row{
