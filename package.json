@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@upstash/vector": "^1.1.2",
     "csv-parser": "^3.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.14.2"
+    "@types/node": "^20.14.2",
+    "tsx": "^4.11.2"
   }
 }
